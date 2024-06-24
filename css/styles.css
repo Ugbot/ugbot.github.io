@@ -28,6 +28,17 @@ header p {
     display: flex;
 }
 
+
+a {
+    color: #ff9800; /* High contrast color */
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffb74d; /* Slightly lighter on hover */
+    text-decoration: underline;
+}
+
 aside {
     width: 250px;
     background: #292929;
