@@ -1,4 +1,20 @@
 <article>
-    <h2>AI in Game Development</h2>
-    <p>Exploring the role of AI in creating immersive and dynamic gaming experiences.</p>
+    <h2>OpenAI's Acquisition of Rockset</h2>
+    <p>Exploring the implications of OpenAI’s acquisition of Rockset for the realtime data analytics space.</p>
+
+    <p>OpenAI’s acquisition of Rockset is major news in the realtime data arena. But what does this move really signify? Let’s delve into what Rockset solved, why OpenAI bought them, and what this means for the broader market and their customers.</p>
+
+    <h3>What Did Rockset Actually Solve?</h3>
+    <p>Rockset is known for powering “in-app search and analytics.” They compete with platforms like <a href="https://en.wikipedia.org/wiki/ClickHouse" target="_blank" rel="noopener">ClickHouse</a>, <a href="https://en.wikipedia.org/wiki/Imply_Data" target="_blank" rel="noopener">Imply</a> (Apache Druid), <a href="https://en.wikipedia.org/wiki/StarTree" target="_blank" rel="noopener">StarTree</a> (Apache Pinot), and <a href="https://en.wikipedia.org/wiki/Elasticsearch" target="_blank" rel="noopener">Elasticsearch</a>. Interestingly, ClickHouse and Tinybird have launched aggressive campaigns encouraging users to migrate from Rockset.</p>
+    <p>This situates Rockset firmly in the realtime search and analysis space. Considering the vast amount of data recall large language models (LLMs) require, their role becomes clearer. My experiences with Rockset include impressive demos involving massive ingestion and querying of JSON data, reminiscent of what <a href="https://en.wikipedia.org/wiki/Apache_Solr" target="_blank" rel="noopener">Solr</a> and Elasticsearch once offered.</p>
+
+    <h3>Why Did OpenAI Buy Rockset and Sunset the Cloud Service?</h3>
+    <p>There are several theories, but it primarily boils down to cost efficiency. It would likely cost OpenAI over 20% of the purchase price annually to use Rockset’s product as-is. I estimate they spend well north of $100 million a year on data services alone. Sunsetting the cloud services likely reflects high operational costs outweighing the revenue generated. Most startups struggle with margins, and maintaining revenue in the tens of millions doesn’t make sense when the team could be repurposed to fuel OpenAI’s ambitious projects. Building robust multi-tenant data isolation tools is challenging, and Rockset had some of the best low-effort ingestion capabilities available.</p>
+
+    <h3>What Does This Mean for the Space at Large and Their Customers?</h3>
+    <p>This acquisition serves as a significant validation for investments in the realtime analytics and search space. Many large players are vying for dominance in the LLM sector, and with Rockset and Tabular (now part of Databricks) exiting, certain portfolios are likely to see a spike.</p>
+    <p>However, this development highlights why open-source tools might be a more strategic choice moving forward. Transitioning away from proprietary tools like Rockset can be a challenge. Rockset built an excellent product, and its disappearance will be felt.</p>
+    <p>Personally, I hope to see more of this work migrate to <a href="https://flink.apache.org/" target="_blank" rel="noopener">Apache Flink</a> and <a href="https://paimon.apache.org/" target="_blank" rel="noopener">Apache Paimon</a>. For recall, enrichment, and training pipelines, having exactly-once stream and batch semantics on a realtime data lake can enhance user experience significantly.</p>
+
+    <p>For more information, you can read the original discussion <a href="https://lnkd.in/dY4JHecj" target="_blank" rel="noopener">here</a>.</p>
 </article>
